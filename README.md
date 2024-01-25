@@ -1,1 +1,2 @@
-This is a shopping store with amazing animations made with PHP. It is very responsive.
+This is a shopping store.
+The frontend of this project has been completed. yeah!
