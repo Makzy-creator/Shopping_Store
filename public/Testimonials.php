@@ -6,7 +6,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="../assets/Img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                            <img src="../assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                             <h3>Joseph Goodman</h3>
                             <h4>Cold &amp; catarrh cleared</h4>
                             <p>
@@ -18,7 +18,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="../assets/Img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                            <img src="../assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                             <h3>Sarah Fartha</h3>
                             <h4>Menstrual cramps</h4>
                             <p>
@@ -30,7 +30,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="../assets/Img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                            <img src="../assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                             <h3>Jena Carlis</h3>
                             <h4>Kidney stone healed</h4>
                             <p>
@@ -42,7 +42,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="../assets/Img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                            <img src="../assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                             <h3>Kenechi Alum</h3>
                             <h4>Back ache stopped</h4>
                             <p>
@@ -54,7 +54,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="../assets/Img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                            <img src="../assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                             <h3>David Usman</h3>
                             <h4>Blood sugar level normalised</h4>
                             <p>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="../assets/Img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                            <img src="../assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                             <h3>Oluwafemi Funmilayo</h3>
                             <h4>High blood pressure cured</h4>
                             <p>

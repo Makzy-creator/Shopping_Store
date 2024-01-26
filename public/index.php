@@ -1,9 +1,12 @@
+<?php
+      session_start();
+      require('../includes/Connection.php');
+?>
+
 <html>
 <body>
     
     <?php
-        session_start();
-        require('../includes/Connection.php');
         
         //connect to MySQL using PDO MySQL
         $pdo = pdo_connect_mysql();
