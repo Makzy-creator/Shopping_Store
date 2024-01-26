@@ -740,7 +740,7 @@ section {
   background-position: center center;
   background-size: cover;
   position: relative;
-  height: 70vh;
+  height: 80vh;
 }
 
 .testimonials::before{
@@ -812,7 +812,7 @@ section {
 }
 
 .testimonials .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 40px;
   position: relative;
 }
 
@@ -836,7 +836,7 @@ section {
 
 @media (min-width: 992px) {
   .testimonials .testimonial-item p{
-    width: 60%;
+    width: 80%;
   }
 }
 
