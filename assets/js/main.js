@@ -70,6 +70,15 @@
     }
   
     /**
+   * Mobile nav toggle
+   */
+  on('click', '.navbar-toggler-icon', function(e) {
+    select('#navbar').classList.toggle('button')
+    this.classList.toggle('offcanvasNavbar')
+    this.classList.toggle('btn-close')
+  })
+
+    /**
      * Toggle .header-scrolled class to #header when page is scrolled
      */
     let selectHeader = select('#header')
@@ -102,17 +111,9 @@
             onscroll(document, toggleBackToTop)
         }
     
-    /**
-     * Mobile nav toggle
-     */
-    on('click', '.mobile-nav-toggle', function(e) {
-      select('#navbar').classList.toggle('navbar-mobile')
-      this.classList.toggle('bi-list')
-      this.classList.toggle('bi-x')
-    })
 
     /**
-     * Scroll with ofset on links with a class name .scrollto
+     * Scroll with ofset on links with a class name .nav-link
      */
     on('click', '.scrollto', function(e) {
       if (select(this.hash)) {
@@ -122,8 +123,8 @@
         if (navbar.classList.contains('navbar-mobile')) {
           navbar.classList.remove('navbar-mobile')
           let navbarToggle = select('.mobile-nav-toggle')
-          navbarToggle.classList.toggle('bi-list')
-          navbarToggle.classList.toggle('bi-x')
+          navbarToggle.classList.toggle('navbar-toggler')
+          navbarToggle.classList.toggle('btn-close')
         }
         scrollto(this.hash)
       }

@@ -136,9 +136,14 @@
 }
 
 .get-started-btn:hover{
-    background-color: #ffbb38;
     color: black;
+    background-color: #ffbb38;
     transition: ease-in 0.3s;
+}
+
+.get-started-btn:first-child:hover{
+  color: black;
+  background-color: #ffc451;
 }
 
 .get-started-btn:last-child:hover {
@@ -174,158 +179,79 @@
   background: rgba(0, 0, 0, 0.8);
 }
 
-#header .logo {
-    font-size: 32px;
-    margin: 0;
-    padding: 0;
+#header .navbar-brand {
     line-height: 1;
-    font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-#header .logo a {
-    color: #fff;
+.offcanvas-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
-#header .logo a span {
+#header .navbar-brand span {
     color: #ffc451;
 }
-
 
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/* my desktop navigation */
+/* desktop navigation */
+
 .navbar{
-    margin: 0;
     padding: 0;
-}
-
-.navbar ul{
-    padding: 0;
-    margin: 0;
-    display: flex;
-    list-style: none;
-    align-items: center;
-}
-
-.navbar li{
-    position: relative;
 }
 
 .navbar a,
 .navbar a:focus
 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 0 10px 30px;
-    white-space: nowrap;
     font-size: 15px;
     font-weight: 600;
     color: #fff;
+    white-space: nowrap;
     transition: 0.3s
 }
 
-.navbar a i,
-.navbar a:focus i{
-    font-size: 15px;
-    line-height: 0;
-    margin-left: 5px;
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.show {
+  color: #ffc451;
 }
 
-.navbar a:hover,
-.navbar .active,
-.navbar .active:focus,
+/* .navbar a:hover, 
+.navbar .active, 
+.navbar .active:focus, 
 .navbar li:hover>a
 {
     color: #ffc451;
+}  */
+
+.navbar li {
+  position: relative;
 }
 
-/* Mobile navigation or toggle button */
-.mobile-nav-toggle {
-  color: #fff;
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  line-height: 0;
-  transition: 0.5s;
+.sidebar a:hover,
+.sidebar .active,
+.sidebar li:hover>a {
+  color: #ffc451;
 }
+
 
 @media (max-width: 991px) {
-  .mobile-nav-toggle{
-    display: block;
+  nav .sidebar{
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(15px);
   }
-
-  .navbar ul{
-    display: none;
-  }
-}
-
-.navbar-mobile {
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
-  transition: 0.3s;
-  z-index: 999;
-}
-
-.navbar-mobile .mobile-nav-toggle {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-
-.navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
-  background-color: #fff;
-  overflow-y: auto;
-  transition: 0.3s;
-}
-
-.navbar-mobile a,
-.navbar-mobile a:focus {
-  padding: 10px 20px;
-  font-size: 15px;
-  color: #151515;
-}
-
-.navbar-mobile a:hover,
-.navbar-mobile .active,
-.navbar-mobile li:hover>a {
-  color: #151515;
-  background-color: #ffc451;
-}
-
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
-  margin: 15px;
-}
-
-.navbar-mobile i,.navbar-mobile #cart-item {
-  color: black !important;
-}
-
-.navbar-mobile .nav-link i {
-  color: #151515;
 }
 
 /* HERO SECTION */
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../Img/Tea/Tea5.jpg") no-repeat;
+  background: url("../img/Tea/Tea5.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -393,7 +319,6 @@
 #hero .icon-box:hover {
   padding: 20px 10px;
   border: 1px solid #ffc451;
-  /* border-color: #ffc451; */
 }
 
 @media(min-width: 1024px) {
