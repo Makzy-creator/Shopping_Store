@@ -65,14 +65,9 @@
     }
 ?>
 
-<link rel="stylesheet" href="../assets/css/style.css">
 <html>
 <body>
-    <div class="container">
-            <!-- <div class="section-title mt-5">
-                <h2>About</h2>
-                <p>About US</p>
-            </div> -->
+    <div class="container-fluid">
             <div class="cart content-wrapper">
                 <h1>Cart</h1>
                 <form action="cart.php" method="POST">

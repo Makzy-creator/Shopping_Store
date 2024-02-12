@@ -9,7 +9,9 @@
   <meta content="tea, brew, green tea" name="keywords" />
 
   <!-- Favicon -->
-  <link href="../assets/img/Tea/RichCe Logo.png Logo.png" rel="icon" />
+  <link rel="icon" href="../assets/img/Logo.png">
+  <link rel="apple-touch-icon" href="../assets/img/Logo.png">
+
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
@@ -39,12 +41,11 @@
         <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <!-- SideBar -->
         <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <!-- sidebar header -->
           <div class="offcanvas-header text-white border-bottom" >
-            <h6 class="offcanvas-title navbar-brand"id="offcanvasNavbarLabel">RICHCE<span>.</span></h6>
+            <h6 class="offcanvas-title navbar-brand"id="offcanvasNavbarLabel">RichCe<span>.</span></h6>
             <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <!-- Sidebar body -->
@@ -68,8 +69,8 @@
             </ul>
             <!-- Login/Signup -->
             <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
-              <a href="#login" class="get-started-btn py-1">Login</a>
-              <a href="#signup" class="get-started-btn text-decoration-none px-3 py-1">Signup</a>
+              <a href="Login.html" class="get-started-btn py-1">Login</a>
+              <a href="Signup.html" class="get-started-btn text-decoration-none px-3 py-1">Signup</a>
             </div>
           </div>
         </div>

@@ -68,15 +68,6 @@
             behavior: 'smooth'
         })
     }
-  
-    /**
-   * Mobile nav toggle
-   */
-  on('click', '.navbar-toggler-icon', function(e) {
-    select('#navbar').classList.toggle('button')
-    this.classList.toggle('offcanvasNavbar')
-    this.classList.toggle('btn-close')
-  })
 
     /**
      * Toggle .header-scrolled class to #header when page is scrolled
